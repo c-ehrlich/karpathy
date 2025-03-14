@@ -1,0 +1,30 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments (if using venv)
+venv/
+.env/
+
+# Ignore cache and compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore data files (optional, if large or sensitive)
+data/
+*.csv
+*.json
+*.sqlite
+*.db
+
+# Ignore logs and outputs
+logs/
+*.log
+
+# Ignore Jupyter Notebook metadata and output cells (optional)
+*.nbconvert.ipynb
+*.nb.html
+
+# Ignore system-generated files (Mac & VSCode)
+.DS_Store
+.vscode/
